@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+
+    outline: none;
+}
+
+
+body{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.phone_wrapper{
+    height: 600px;
+    width: 300px;
+    background-image: linear-gradient(to bottom, gray, black);
+    border: 3px solid rgb(97, 97, 97);
+    border-radius: 40px;
+    padding: 3px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.phone_content{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 35px;
+    border: 6px solid black;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/f1d0d572816947.5c2bcd89d519b.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone_top{
+    position: absolute;
+    height: 25px;
+    width: 110px;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.phone_left_btn{
+    height: 75px;
+    width: 5px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: black;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -5px;
+}
+
+.phone_right_btn{
+    height: 35px;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    margin-left: 300px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: -540px;
+}
+
+.phone_right_btn2{
+    height: 35px;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    margin-left: 300px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: -500px;
+}
+
+.first_phone_wrapper{
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 40px;
+}
+
